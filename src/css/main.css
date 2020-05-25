@@ -1,0 +1,100 @@
+body {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.7em;
+  margin: 0;
+  padding: 0;
+}
+
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  /* background-color: aqua */
+}
+@import "_nav";
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1em;
+  /* border-bottom: 10px solid #000; */
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 10px;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row ;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* background-color: blue; */
+}
+
+
+
+article {
+  
+  
+}
+
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 30%;
+  max-width: 30%;
+  /* padding: 0 4px; */
+  margin: 20px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 1200px) {
+  main {
+    margin: 30px;
+  }
+  .column {
+    /* flex: 70%; */
+    max-width: 100%;
+    /* margin: 10px; */
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  main {
+    margin: 0;
+  }
+  .column {
+    flex: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .column img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  .column p {
+    padding: 10px;
+  }
+  article {
+    margin: 0;
+    padding: 0;
+  }
+}
