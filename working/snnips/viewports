@@ -1,0 +1,13 @@
+@media screen and (min-width:320px){} // mobile portrait
+@media screen and (min-width:480px){} // mobile landscape
+@media screen and (min-width:768px){} // ipad portrait
+@media screen and (min-width:1024px){} // browser, ipad landscape
+@media screen and (min-width:1200px){} // browser
+@media screen and (min-width:1600px){} // browser
+
+No point trying to cover all the different android etc resolutions...there are so many.
+
+Also sometimes the breakpoints don't trigger on the actual size due to the scrollbar, which each browser has different rules for. Might be wise to cut off 20px per @media to make sure they trigger. I sometimes swap the min-width:320px for a max-width: 480px, as under 320 nothing might be displayed.
+
+
+if anyone reads this here, when generating sha hashes for local files, do not copy the '%' into integrity, dont ask why, SRI just doesnt work if you do copy it over

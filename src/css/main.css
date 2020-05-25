@@ -1,5 +1,20 @@
 .socials {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.socials img {
+  margin: 5px;
+  width: 50px;
+  height: auto;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 
 nav {
@@ -103,20 +118,6 @@ body a {
   align-self: stretch;
   flex-basis: 100%;
   margin: 20px 0;
-}
-
-#about {
-  flex-basis: 50%;
-  align-self: stretch;
-}
-
-.topbar {
-  display: flex;
-  flex-wrap: nowrap;
-  align-self: stretch;
-  flex-basis: 100%;
-  margin: 20px 0;
-  justify-content: space-between;
 }
 
 footer {
