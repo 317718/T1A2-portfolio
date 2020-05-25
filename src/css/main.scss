@@ -1,0 +1,62 @@
+@import "contact";
+@import "nav";
+@import "blog";
+
+body {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .button {
+    background-color: #000;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+  }
+  
+  .mainhead {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    padding: 30px;
+    align-self: stretch;
+    flex-basis: 100%;
+    margin: 20px 0;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 10px;
+  }
+  
+  main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* background-color: blue; */
+  }
+  
+  
+  
+  #topbar {
+    
+    
+  }
+  
+  
+  

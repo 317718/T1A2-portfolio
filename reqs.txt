@@ -33,3 +33,21 @@ All components should:
 Deploy the application to an online platform to make it publicly accessible
 
 6. Implement Subresource Integrity (SRI) to enable browsers to verify that resources they fetch are delivered without unexpected manipulation.
+
+----
+theres not a lot of direction about the readme as far as word cunts or what level of detail is expected. is it sufficient enough to dot point features and tech stack and have a short paragraph outline the purposes and target audience or is there a format the educators are expecting?
+
+Va
+Varsha Bapat
+11:24 AM
+don't worry about word counts - if you are able to put your points across in a short and simple way its more that enough
+
+Va
+Varsha Bapat
+11:24 AM
+if there is a certain criteria that you are thinking of feel free to put that here and we will let you know
+
+La
+Lavanya Vemavarapu
+11:25 AM
+describe the portfolio :purpose, features, sitemap, screenshots, target audience and tech stack

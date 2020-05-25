@@ -1,0 +1,25 @@
+.resume {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: justify;
+  }
+  
+  #index {
+    flex-direction: column;
+    height:100vh;
+  }
+  
+  #about {
+    flex-basis: 50%;
+    align-self: stretch;
+  }
+  
+  .topbar {
+    display: flex;
+    flex-wrap: nowrap;
+    align-self: stretch;
+    flex-basis: 100%;
+    margin: 20px 0; 
+    justify-content: space-between;
+  }
