@@ -1,0 +1,83 @@
+/* FROM MAIN.SCSS */
+body {
+    
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+    margin: 0;
+    padding: 0;
+  }
+
+#indexbody {
+    background-image: url("../images/bg1.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+
+@media (max-width: 1200px) {
+    #indexbody {
+    background-image: url("../images/bg1t.png");
+    }
+}
+  
+  body a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .button {
+    background-color: #000;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+  }
+  
+  .mainhead {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    padding: 30px;
+    align-self: stretch;
+    flex-basis: 100%;
+    margin: 20px 0;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 10px;
+    
+  }
+  
+  main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+/* END MAIN */
+
+/* INDEX PAGE */
+#index {
+  flex-direction: column;
+  height:100vh;
+  align-items: flex-start;
+  align-content: stretch;
+  margin: 30px;
+}
+#splash {
+  font-size: 24px;
+  line-height: 24px;
+}
+#splash h1 {
+  font-size: 3em;
+  font-weight: 900;
+  line-height: 1em;
+}
+/* END INDEX */

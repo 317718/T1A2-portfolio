@@ -1,0 +1,29 @@
+/* ABOUT SECTION */
+.resume {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: justify;
+    flex: 30%;
+    max-width: 30%;
+    margin: 20px;
+  }
+  
+  #about {
+    // flex-basis: 50%;
+    // align-self: stretch;
+  }
+  
+  .topbar {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    /* flex-basis: 100%; */
+    /* margin: 20px 0;  */
+    /* justify-content: space-between; */
+  }
+
+  button {
+    justify-content: space-between;
+      width: 50px;
+  }
+  /* END ABOUT SECTION */
