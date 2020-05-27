@@ -1,8 +1,32 @@
+#contactcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 20px;
+}
+#contactcontainer aside {
+  flex-basis: 30%;
+}
+#contactcontainer section {
+  flex-basis: 60%;
+}
+
+@media (max-width: 600px) {
+  .contact {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  input[type=submit] {
+    width: 100%;
+  }
+}
 .socials {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: left;
 }
 .socials img {
   margin: 5px;
@@ -10,11 +34,36 @@
   height: auto;
 }
 
+#where {
+  margin-top: 30px;
+}
+
 input[type=text] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 14px 20px;
+  box-sizing: border-box;
+  margin: 8px 0;
+  font-size: 16px;
+  resize: none;
 }
 
 nav {
@@ -81,7 +130,6 @@ nav {
   .mainhead {
     padding: 50px 30px 0 30px;
     margin: 0;
-    /* font-size: 64px; */
   }
 
   nav {

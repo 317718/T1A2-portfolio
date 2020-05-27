@@ -10,31 +10,41 @@
   <body>
     <nav>
       <a href="about.html">ABOUT</a>
-      <a href="portfolio.html">PORTFOLIO</a>
+      <a href="#">PORTFOLIO</a>
       <a href="blog.html">BLOG</a>
       <a href="contact.html">CONTACT</a>
     </nav>
 
     <main id="contactcontainer">
     <h1 class="mainhead">contact me</h1>
-    <section class="contact">
+    <aside class="contact">
       <div class="socials">
-        <img src="images/twitter.png" alt=""> 
+        <a href="#">
+        <img src="images/twitter.png" alt="">
+        </a>
+        <a href="https://github.com/317718">
         <img src="images/github.png" alt="Github">
+        </a>
+        <a href="https://www.linkedin.com/in/billie-leversedge-00077a1a5/">
         <img src="images/linkedin.png" alt="Linkedin">
+        </a>
       </div>
-
-      <div class="">
-        Based in Brisbane Australia
+      <div id="where">
+        Based in Brisbane, Australia. <br>
+        Email me at 317718@gmail.com
       </div>
-    </section>
+    </aside>
 
-    <section>
+    <section class="contact">
       <form>
         <label for="name">Name</label>
         <input type="text" id="name" name="name">
         <label for="email">Email address</label>
         <input type="text" id="email" name="email">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject">
+        <textarea id="subject" name="subject" placeholder="Your message"></textarea>
+        <input type="submit" value="Submit">
       </form>
     </section>
   </main>
